@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List </title>
+    <link rel="stylesheet" href="toDoList.css"/>
+</head>
+
+<body>
+    <div class="header">
+        <h1>~ To-Do List ~</h1>
+    </div>
+    <div class="list">
+        <div class="addTask">
+            <img src="arrow.png" alt="text" class="checkBtn" width="20" height = "20">
+            <input type="text" placeholder="What needs to be done?" id="textbox" style="color:rgba(232, 217, 217, 0.847);">
+        </div>
+        <ul class="tasks"></ul>
+        <div class="footer">
+            <span id="noLeft"> items left</span>
+            <div class="filters">
+                <span class="on" id="all">All</span>
+                <span id="active">Active</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clearBtn">Clear completed</button>
+        </div>
+        
+    </div>
+    <script src = "toDoList.js"></script>
+</body>
+</html>
